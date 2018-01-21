@@ -37,5 +37,14 @@ Finally add this to "extra" section as first item in "installer-paths":
 ```
 
 2. Run **composer update**.
-3. Enable module in Drupal.
-4) Enjoy the new paragraph :-).
+3. Include module's scss in droopler_subtheme style.scss file
+
+```scss
+@import "../../../../modules/contrib/i_p_gallery/scss/i_p_gallery";
+```
+
+**Note**: Any changes made in this file won't be caught by **gulp watch**.
+
+4. Run **gulp compile** in droopler_subtheme directory
+5. Enable module in Drupal.
+6. Enjoy the new paragraph :-).
