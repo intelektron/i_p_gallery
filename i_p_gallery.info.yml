@@ -1,0 +1,12 @@
+name: Gallery
+description: 'Feature containing gallery paragraph.'
+type: module
+core: 8.x
+package: Intelektron
+dependencies:
+  - field
+  - file
+  - image
+  - paragraphs
+  - colorbox
+version: 8.x-1.0
