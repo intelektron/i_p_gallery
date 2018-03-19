@@ -1,6 +1,8 @@
 # Gallery paragraph for Droopler #
 [![N|Solid](http://intelektron.pl/logo.svg)](http://intelektron.pl)
 
+## Caution! ##
+
 **This module was replaced** by Droptica's [d_p_gallery](https://github.com/droptica/d_p_gallery), for Droopler versions >= 8.1.0-alpha3. However it still works and you don't have to update your old galleries.
 
 ## Installation ##
